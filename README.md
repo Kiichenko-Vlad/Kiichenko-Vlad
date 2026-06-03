@@ -24,19 +24,21 @@ and analytics teams.
 
 ---
 
-## Featured Projects
-
 ### [Olist E-Commerce: Retention, Delivery Threshold & Revenue Analysis](https://github.com/Kiichenko-Vlad/olist-ecommerce-analysis)
 `Python` · `PostgreSQL` · `SQLAlchemy` · `psycopg2` · `Docker` · `DBeaver`
 
-End-to-end analysis of a Brazilian e-commerce marketplace (99K+ orders, 2016–2018).
+The platform grew 20× in 2 years — yet loses 97 out of 100 customers after their first order.
+Three independent analyses converge on one root cause: a logistics bottleneck
+pushing 27.4% of orders past the 15-day threshold.
 
-**Key finding:** 27.4% of orders exceed the 15-day delivery threshold →
-average review score drops from **4.29 → 3.65** →
-primary driver behind a **3.12% customer retention rate**.
-Validated with t-test and Kruskal-Wallis statistical tests.
+**Key findings:**
+- Review score drops **4.29 → 3.65** beyond 15 days — validated with t-test
+  and Kruskal-Wallis
+- Northern states have **73% higher** avg order value than São Paulo,
+  but demand is suppressed by transit times of 25.6 vs 5.6 days
+- **3.12% retention** — average customer orders exactly once (avg 1.03 orders)
 
-→ Full Python ETL pipeline · 7 normalised DB tables · 9 SQL analytical queries
+→ Full ETL pipeline · 7 normalised DB tables · 9 SQL queries
 
 ---
 
