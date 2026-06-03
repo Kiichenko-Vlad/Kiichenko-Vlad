@@ -1,10 +1,10 @@
 # Hi, I'm Vladyslav Kiichenko 👋
 
-Data Analyst with 2 years of experience at Vchasno Group, 
-where I work daily with production databases: writing complex 
-SQL (CTEs, Window Functions) in Metabase (PostgreSQL), analysing 
-system logs in Kibana, and delivering data insights to sales 
-and analytics teams.
+Data Analyst with 2 years of hands-on experience working with 
+production data at Vchasno Group, where I work daily with production 
+databases: writing complex SQL (CTEs, Window Functions) in 
+Metabase (PostgreSQL), analysing system logs in Kibana, 
+and delivering data insights to sales and analytics teams.
 
 ---
 
