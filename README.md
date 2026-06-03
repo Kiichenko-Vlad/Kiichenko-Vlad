@@ -24,54 +24,24 @@ and analytics teams.
 
 ---
 
-### [Olist E-Commerce: Retention, Delivery Threshold & Revenue Analysis](https://github.com/Kiichenko-Vlad/olist-ecommerce-analysis)
-`Python` · `PostgreSQL` · `SQLAlchemy` · `psycopg2` · `Docker` · `DBeaver`
+## Featured Projects
 
-The platform grew 20× in 2 years — yet loses 97 out of 100 customers after their first order.
-Three independent analyses converge on one root cause: a logistics bottleneck
-pushing 27.4% of orders past the 15-day threshold.
+**[Olist E-Commerce: Retention, Delivery Threshold & Revenue Analysis](https://github.com/Kiichenko-Vlad/olist-ecommerce-analysis)**
+`Python` `PostgreSQL` `Docker`
+End-to-end ETL + SQL analysis of 99K+ orders. Key finding: 27.4% of orders exceed
+the 15-day delivery threshold — the root cause of a 3.12% retention rate.
 
-**Key findings:**
-- Review score drops **4.29 → 3.65** beyond 15 days — validated with t-test
-  and Kruskal-Wallis
-- Northern states have **73% higher** avg order value than São Paulo,
-  but demand is suppressed by transit times of 25.6 vs 5.6 days
-- **3.12% retention** — average customer orders exactly once (avg 1.03 orders)
 
-→ Full ETL pipeline · 7 normalised DB tables · 9 SQL queries
+**[Metrocar: Funnel Drop-off, User Retention & Product Health Analysis](https://github.com/Kiichenko-Vlad/metrocar-data-analysis)**
+`PostgreSQL` `Tableau`
+Product analytics case study on ride-hailing data. 42% cancellation rate traced
+to peak-hour capacity gaps, not demand decline. Polarised ratings: 39.5% score 1–2.
 
----
 
-### [Metrocar: Funnel Drop-off, User Retention & Product Health Analysis](https://github.com/Kiichenko-Vlad/metrocar-data-analysis)
-`PostgreSQL` · `DBeaver` · `Tableau`
-
-End-to-end product analytics case study on Metrocar ride-hailing data.
-Built two complementary funnel views — user-level and ride-level —
-to separate demand issues from operational execution failures.
-
-**Key findings:**
-- 42% cancellation rate driven by peak-hour capacity constraints
-  (08:00–09:00 and 16:00–18:00), not by demand decline
-- 39.5% of ratings fall in the 1–2 star range — a polarised experience
-  invisible when looking at average metrics alone
-- Age and platform do not explain performance gaps;
-  operational reliability is the primary constraint
-
-→ Multi-layered SQL funnel analysis · Tableau dashboard · Executive report with recommendations
-
----
-
-### [Cookie Cats: A/B Test — Gate Placement & Player Retention](https://github.com/Kiichenko-Vlad/Cookie-Cats-A-B-Test-Analysis)
-`Python` · `scipy` · `statsmodels` · `pandas`
-
-A/B test on 90,189 players: does moving the first gate from level 30 → 40 affect retention?
-
-- 7-day retention: **19.02% vs 18.20%** (p = 0.0016) — statistically significant
-- 1-day retention: p = 0.074 — trend visible, threshold not reached
-- Power analysis confirmed ~10× sample surplus; Z-test + χ²-test + player segmentation
-
-**Result:** gate_30 retained more players — early forced breaks build return habits,
-especially for mid-core and hardcore segments.
+**[Cookie Cats: A/B Test — Gate Placement & Player Retention](https://github.com/Kiichenko-Vlad/Cookie-Cats-A-B-Test-Analysis)**
+`Python` `scipy` `statsmodels`
+A/B test on 90K players. 7-day retention significantly higher with gate at level 30
+(p = 0.0016). Includes power analysis, Z-test, χ²-test and player segmentation.
 
 ---
 
