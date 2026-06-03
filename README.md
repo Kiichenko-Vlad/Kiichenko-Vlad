@@ -13,7 +13,7 @@ a real product environment.
 ## Tech Stack
 
 **Data & Databases**
-`SQL` `PostgreSQL` `Metabase` `DBeaver` `Google BigQuery`
+`SQL` `PostgreSQL` `Metabase` `DBeaver`
 
 **Python**
 `Pandas` `NumPy` `Matplotlib` `Seaborn` `Scipy` `SQLAlchemy` `psycopg2`
