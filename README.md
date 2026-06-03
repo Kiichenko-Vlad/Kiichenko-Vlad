@@ -28,19 +28,19 @@ and analytics teams.
 
 **[Olist E-Commerce: Retention, Delivery Threshold & Revenue Analysis](https://github.com/Kiichenko-Vlad/olist-ecommerce-analysis)**
 `Python` `PostgreSQL` `Docker`
-End-to-end ETL + SQL analysis of 99K+ orders. Key finding: 27.4% of orders exceed
+- End-to-end ETL + SQL analysis of 99K+ orders. Key finding: 27.4% of orders exceed
 the 15-day delivery threshold — the root cause of a 3.12% retention rate.
 
 
 **[Metrocar: Funnel Drop-off, User Retention & Product Health Analysis](https://github.com/Kiichenko-Vlad/metrocar-data-analysis)**
 `PostgreSQL` `Tableau`
-Product analytics case study on ride-hailing data. 42% cancellation rate traced
+- Product analytics case study on ride-hailing data. 42% cancellation rate traced
 to peak-hour capacity gaps, not demand decline. Polarised ratings: 39.5% score 1–2.
 
 
 **[Cookie Cats: A/B Test — Gate Placement & Player Retention](https://github.com/Kiichenko-Vlad/Cookie-Cats-A-B-Test-Analysis)**
 `Python` `scipy` `statsmodels`
-A/B test on 90K players. 7-day retention significantly higher with gate at level 30
+- A/B test on 90K players. 7-day retention significantly higher with gate at level 30
 (p = 0.0016). Includes power analysis, Z-test, χ²-test and player segmentation.
 
 ---
