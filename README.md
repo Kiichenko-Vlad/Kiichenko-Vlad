@@ -5,8 +5,8 @@ at Vchasno Group — one of Ukraine's leading SaaS product companies.
 
 My daily work involves writing complex SQL (CTEs, Window Functions) in Metabase
 (PostgreSQL), analysing system logs in Kibana, and delivering data insights to
-sales and analytics teams — not just coursework, but applied analytical work in
-a real product environment.
+sales and analytics teams — applied analytical work in a real production 
+environment — not a training dataset.
 
 ---
 
