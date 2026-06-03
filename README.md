@@ -61,6 +61,20 @@ to separate demand issues from operational execution failures.
 
 ---
 
+### [Cookie Cats: A/B Test — Gate Placement & Player Retention](https://github.com/Kiichenko-Vlad/Cookie-Cats-A-B-Test-Analysis)
+`Python` · `scipy` · `statsmodels` · `pandas`
+
+A/B test on 90,189 players: does moving the first gate from level 30 → 40 affect retention?
+
+- 7-day retention: **19.02% vs 18.20%** (p = 0.0016) — statistically significant
+- 1-day retention: p = 0.074 — trend visible, threshold not reached
+- Power analysis confirmed ~10× sample surplus; Z-test + χ²-test + player segmentation
+
+**Result:** gate_30 retained more players — early forced breaks build return habits,
+especially for mid-core and hardcore segments.
+
+---
+
 ## Get in Touch
 
 - **LinkedIn:** [vladyslav-kiichenko-81b3b3386](https://www.linkedin.com/in/vladyslav-kiichenko-81b3b3386/)
