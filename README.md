@@ -1,6 +1,6 @@
 # Hi, I'm Vladyslav Kiichenko 👋
 
-Junior Data Analyst with 2 years of hands-on experience working with production data
+Data Analyst with 2 years of hands-on experience working with production data
 at Vchasno Group — one of Ukraine's leading SaaS product companies.
 
 My daily work involves writing complex SQL (CTEs, Window Functions) in Metabase
