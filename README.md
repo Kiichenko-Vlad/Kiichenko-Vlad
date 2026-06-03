@@ -43,10 +43,19 @@ Validated with t-test and Kruskal-Wallis statistical tests.
 ### [Metrocar: Funnel Drop-off, User Retention & Product Health Analysis](https://github.com/Kiichenko-Vlad/metrocar-data-analysis)
 `PostgreSQL` · `DBeaver` · `Tableau`
 
-End-to-end product analytics case study on ride-hailing data.
-Analysed a 6-stage user funnel from app install to completed ride,
-identified key drop-off points, and mapped operational metrics
-to user satisfaction scores.
+End-to-end product analytics case study on Metrocar ride-hailing data.
+Built two complementary funnel views — user-level and ride-level —
+to separate demand issues from operational execution failures.
+
+**Key findings:**
+- 42% cancellation rate driven by peak-hour capacity constraints
+  (08:00–09:00 and 16:00–18:00), not by demand decline
+- 39.5% of ratings fall in the 1–2 star range — a polarised experience
+  invisible when looking at average metrics alone
+- Age and platform do not explain performance gaps;
+  operational reliability is the primary constraint
+
+→ Multi-layered SQL funnel analysis · Tableau dashboard · Executive report with recommendations
 
 ---
 
