@@ -47,6 +47,6 @@ to peak-hour capacity gaps, not demand decline. Polarised ratings: 39.5% score 1
 
 ## Get in Touch
 
-- **LinkedIn:** [vladyslav-kiichenko-81b3b3386](https://www.linkedin.com/in/vladyslav-kiichenko-81b3b3386/)
+- **LinkedIn:** [vladyslav-kiichenko](https://www.linkedin.com/in/vladyslav-kiichenko-81b3b3386/)
 - **Telegram:** [@v_kiichenko](https://t.me/v_kiichenko)
 - **Email:** [vladyslav.kiichenko@gmail.com](vladyslav.kiichenko@gmail.com)
